@@ -40,14 +40,10 @@
 > 𝘼𝙡𝙬𝙖𝙮𝙨 𝙧𝙚𝙢𝙚𝙢𝙗𝙚𝙧 𝙩𝙤 𝙪𝙨𝙚 𝙜𝙤𝙤𝙙 𝘼𝙋𝙄 𝙘𝙤𝙢𝙗𝙤 𝙚𝙡𝙨𝙚 𝙮𝙤𝙪𝙧 𝙖𝙘𝙘𝙤𝙪𝙣𝙩 𝙘𝙤𝙪𝙡𝙙 𝙗𝙚 𝙙𝙚𝙡𝙚𝙩𝙚𝙙.
 𝙐𝙠
 ### 𝘿𝙚𝙥𝙡𝙤𝙮 𝙩𝙤 𝙃𝙚𝙧𝙤𝙠𝙪
+<h4>Click the button below to deploy DevilMusic on Heroku!</h4>    
+<p><a href="https://github.com/devilxdereor/DEVILXMUSIC"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
-<h4>Click the button below to deploy Bot on Heroku!</h4>    
-<p><a href="https://heroku.com/deploy?template="https://github.com/devilxdereor/DEVILXMUSIC/blob/main/app.json"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
-
-### 𝘿𝙚𝙥𝙡𝙤𝙮 𝙏𝙤 𝙍𝙖𝙞𝙡𝙬𝙖𝙮
-
-## ᴅᴇᴘʟᴏʏ ʀᴀɪʟᴡᴀʏ ꜱᴇʀᴠᴇʀ </h4>
 [![Deploy+To+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/devilxdereor/DEVILXMUSIC/tree/main
 
 
