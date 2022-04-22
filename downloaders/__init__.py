@@ -25,7 +25,7 @@ def download(url: str) -> str:
         )
 
     ydl.download([url])
-    return path.join("downloads", f"{info['id']}.{info['ext']}")
+    return path.join("downloads", f"{info['id']}.{info['ext']}") 
 
 
 
