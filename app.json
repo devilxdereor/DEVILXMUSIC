@@ -1,0 +1,44 @@
+  
+{
+  "name": "DEVILXMUSIC STREAMER",
+  "logo": "https://te.legra.ph/file/d1ad501ef32f7128a0e71.jpg",
+  "description": "A powerful telegram music streaming Bot !! Powered by @tumhumeyaadnhi",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/devilxdereor/DEVILXMUSIC",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "Pyrogram String Session !!",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Bot token of your bot or get it from the @BotFather !!",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "fill with your bot username from @BotFather but without using '@' symbol",
+      "required": true
+    },
+    "API_ID": {
+      "description": "Enter Your App ID or Get it from my.telegram.org/apps",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Enter your App hash or get it from my.telegram.org/apps",
+      "required": true
+    },
+    "OWNER_USERNAME": {
+      "description": "fill with your telegram account username without @",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "List the Ids of the SudoUsers of the Bot (separated by space).",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes). Don't Change it !!",
+      "required": true,
+      "value": "120"
+    }
+  }
+}
