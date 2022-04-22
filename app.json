@@ -1,44 +1,39 @@
-  
 {
-  "name": "DEVILXMUSIC STREAMER",
-  "logo": "https://te.legra.ph/file/d1ad501ef32f7128a0e71.jpg",
-  "description": "A powerful telegram music streaming Bot !! Powered by @tumhumeyaadnhi",
+  "name": "DEVILMUSIC",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by DEVILBOY .",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/devilxdereor/DEVILXMUSIC",
+  "repository": "https://github.com/Uw9nwiwhi2j8/MusicSanki",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
-      "description": "Pyrogram String Session !!",
+      "description": "Pyrogram session string",
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "Bot token of your bot or get it from the @BotFather !!",
+      "description": "A bot token from @BotFather",
       "required": true
     },
-    "BOT_USERNAME": {
-      "description": "fill with your bot username from @BotFather but without using '@' symbol",
-      "required": true
+    "BOT_NAME": {
+      "description": "Your MusicPlayer Bot Name.",
+      "required": false,
+      "value": ""
     },
     "API_ID": {
-      "description": "Enter Your App ID or Get it from my.telegram.org/apps",
+      "description": "App ID from my.telegram.org/apps",
       "required": true
-    },
+},
     "API_HASH": {
-      "description": "Enter your App hash or get it from my.telegram.org/apps",
-      "required": true
-    },
-    "OWNER_USERNAME": {
-      "description": "fill with your telegram account username without @",
+      "description": "App hash from my.telegram.org/apps",
       "required": true
     },
     "SUDO_USERS": {
-      "description": "List the Ids of the SudoUsers of the Bot (separated by space).",
+      "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true
     },
     "DURATION_LIMIT": {
-      "description": "Max audio duration limit for downloads (minutes). Don't Change it !!",
+      "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
-      "value": "120"
+      "value": "10"
     }
   }
 }
