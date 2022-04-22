@@ -41,7 +41,8 @@
 𝙐𝙠
 ### 𝘿𝙚𝙥𝙡𝙤𝙮 𝙩𝙤 𝙃𝙚𝙧𝙤𝙠𝙪
 <h4>Click the button below to deploy DevilMusic on Heroku!</h4>    
-<p><a href="https://github.com/devilxdereor/DEVILXMUSIC"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sonudohare85/video-stream)
 
 
 [![Deploy+To+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/devilxdereor/DEVILXMUSIC/tree/main
