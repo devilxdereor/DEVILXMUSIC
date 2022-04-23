@@ -10,7 +10,33 @@
       "description": "Pyrogram String Session !!",
       "required": true
     },
-    "BOT_TOKEN": {
+   },
+      "AUTO_LEAVING_ASSISTANT": {
+        "description": "If you want your assistant to leave all chats automatically after some time.",
+        "value": "True",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
+        "value": "",
+        "required": false
+      },
+      "MUSIC_BOT_NAME": {
+        "description": "A name for your Music Bot. Please don't use ascii characters",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "value": "",
+        "required": true
+      },
+ "BOT_TOKEN": {
       "description": "Bot token of your bot or get it from the @BotFather !!",
       "required": true
     },
