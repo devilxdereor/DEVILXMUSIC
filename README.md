@@ -28,7 +28,7 @@
 ### 𝘿𝙚𝙥𝙡𝙤𝙮 𝙩𝙤 𝙃𝙚𝙧𝙤𝙠𝙪
 <h4>Click the button below to deploy DevilMusic on Heroku!</h4>    
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sonudohare85/video-stream)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/devilxdereor/DEVILXMUSIC)
 
 
 [![Deploy+To+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/devilxdereor/DEVILXMUSIC/tree/main
