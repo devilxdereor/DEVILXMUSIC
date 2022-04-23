@@ -42,5 +42,18 @@
 
 #### 𝘾𝙤𝙥𝙮 𝙋𝙖𝙨𝙩𝙚𝙧𝙨 𝙔𝙤𝙪 𝘾𝙖𝙣 𝘾𝙤𝙥𝙮 𝙏𝙝𝙞𝙨 𝘽𝙪𝙩 𝙈𝙪𝙨𝙩 𝙂𝙞𝙫𝙚 𝘾𝙧𝙚𝙙𝙞𝙩𝙨 ...
 
+### Developers 
+  
+
+  
+<a href="https://t.me/coolbotssupport"><img src="https://img.shields.io/badge/KING-ReD.svg?style=for-the-badge&logo=Python"></a> 
+
+
+
 ### 𝙊𝙬𝙣𝙚𝙧 𝙊𝙛 𝙏𝙝𝙞𝙨 𝙍𝙚𝙥𝙤𝙨𝙞𝙩𝙤𝙧𝙮
-![𝙁𝘾 𝘿𝙀𝙑𝙄𝙇 𝙃𝘼𝙇𝘿𝙀𝙍](https://te.legra.ph/file/28bbff430f11b87f300df.png)
+
+ 
+  [![𝙁𝘾 𝘿𝙀𝙑𝙄𝙇 𝙃𝘼𝙇𝘿𝙀𝙍](https://te.legra.ph/file/28bbff430f11b87f300df.png)](https://t.me/coolbotssupport)
+
+
+
