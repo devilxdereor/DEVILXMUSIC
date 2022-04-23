@@ -1,69 +1,86 @@
 {
-  "name": " DEVILXMUSIC",
-  "logo": "https://te.legra.ph/file/28bbff430f11b87f300df.png",
-  "description": "A powerful telegram music streaming Bot !! Powered by @tumhumeyaadnhi",
-  "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/devilxdereor/DEVILXMUSIC",
-  "stack": "container",
-  "env": {
-    "SESSION_NAME": {
-      "description": "Pyrogram String Session !!",
-      "required": true
+    "name": "DEVILXMUSIC",
+    "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by PyTgCalls and Pyrogram",
+    "logo": "https://te.legra.ph/file/28bbff430f11b87f300df.png",
+    "keywords": [
+        "py-tgcalls",
+        "telegram bot",
+        "video stream",
+        "live stream",
+        "music stream",
+        "mongodb",
+        "pyrogram"
+    ],
+    "website": "https://t.me/coolbotssupport",
+    "repository": "https://github.com/devilxdereor/DEVILXMUSIC",
+    "success_url": "https://t.me/dlwrml",
+    "env": {
+        "API_ID": {
+            "description": "your API_ID from my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "your API_HASH from my.telegram.org",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "your bot token from @BotFather",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "fill with your bot username from @BotFather but without using '@' symbol",
+            "required": true
+        },
+        "SESSION_NAME": {
+            "description": "fill with the pyrogram String Session",
+            "required": true
+        },
+        "MONGODB_URL": {
+            "description": "fill with the mongodb url, You must create it first from cloud.mongodb.com (tutorial about how to make it, find it on @VeezSupportGroup)",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "fill with the user id you want to be added into sudo member list (separate with spaces), or You can just fill this with your id",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "fill with your own telegram id, this is needed because there's any feature that only can be used by bot owner",
+            "required": true
+        },
+        "GROUP_SUPPORT": {
+            "description": "if you have group, then fill the group username here without @",
+            "required": true
+        },
+        "UPDATES_CHANNEL": {
+            "description": "if you have channel, then fill the channel username here without @",
+            "required": true
+        },
+        "OWNER_USERNAME": {
+            "description": "fill with your telegram account username without @",
+            "required": true
+        },
+        "ALIVE_NAME": {
+            "description": "fill with your telegram account nickname/name",
+            "required": true
+        }
     },
-   },
-      "AUTO_LEAVING_ASSISTANT": {
-        "description": "If you want your assistant to leave all chats automatically after some time.",
-        "value": "True",
-        "required": true
-      },
-      "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
-        "value": "",
-        "required": true
-      },
-      "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
-        "value": "",
-        "required": false
-      },
-      "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. Please don't use ascii characters",
-        "value": "",
-        "required": true
-      },
-      "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "",
-        "required": true
-      },
- "BOT_TOKEN": {
-      "description": "Bot token of your bot or get it from the @BotFather !!",
-      "required": true
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
     },
-    "BOT_USERNAME": {
-      "description": "fill with your bot username from @BotFather but without using '@' symbol",
-      "required": true
-    },
-    "API_ID": {
-      "description": "Enter Your App ID or Get it from my.telegram.org/apps",
-      "required": true
-    },
-    "API_HASH": {
-      "description": "Enter your App hash or get it from my.telegram.org/apps",
-      "required": true
-    },
-    "OWNER_USERNAME": {
-      "description": "fill with your telegram account username without @",
-      "required": true
-    },
-    "SUDO_USERS": {
-      "description": "List the Ids of the SudoUsers of the Bot (separated by space).",
-      "required": true
-    },
-    "DURATION_LIMIT": {
-      "description": "Max audio duration limit for downloads (minutes). Don't Change it !!",
-      "required": true,
-      "value": "120"
-    }
-  }
+    "stack": "container"
 }
