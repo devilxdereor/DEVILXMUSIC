@@ -35,10 +35,10 @@ Please try to create bug reports that are:
 ### How to submit a Pull Request
 
 1. Search our repository for open or closed
-   [Pull Requests](https://github.com/TeamYukki/YukkiMusicBot/pulls)
+   [Pull Requests](https://github.com/devilxdereor/DEVILXMUSIC/pulls)
    that relate to your submission. You don't want to duplicate effort.
 2. Fork the project
 3. Create your feature branch (`git checkout -b feat/amazing_feature`)
 4. Commit your changes (`git commit -m 'feat: add amazing_feature'`) YukkiMusicBot uses [conventional commits](https://www.conventionalcommits.org), so please follow the specification in your commit messages.
 5. Push to the branch (`git push origin feat/amazing_feature`)
-6. [Open a Pull Request](https://github.com/DEVILX/DEVILXMusicBot/compare?expand=1)
+6. [Open a Pull Request](https://github.com/devilxdereor/DEVILXMUSIC/compare?expand=1)
