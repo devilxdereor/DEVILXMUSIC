@@ -42,9 +42,8 @@
 
 ### Developers 
   
-
   
-<a href="https://t.me/coolbotssupport"><img src="https://img.shields.io/badge/KING-ReD.svg?style=for-the-badge&logo=Python"></a> 
+<a href="http://t.me/tumhumeyaadnhi"><img src="https://img.shields.io/badge/KING-ReD.svg?style=for-the-badge&logo=Python"></a> 
 
 
 
