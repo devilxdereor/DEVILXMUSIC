@@ -7,7 +7,7 @@
 #
 # All rights reserved.
 
-from DEVILXMUSIC.core.bot import YukkiBot
+from DEVILXMUSIC.core.bot import DEVILXMUSIC
 from DEVILXMUSIC.core.dir import dirr
 from DEVILXMUSIC.core.git import git
 from DEVILXMUSIC.core.userbot import Userbot
@@ -31,7 +31,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = YukkiBot()
+app = DEVILXMUSIC()
 
 # Assistant Client
 userbot = Userbot()
